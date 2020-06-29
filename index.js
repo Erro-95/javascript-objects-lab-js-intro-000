@@ -3,7 +3,7 @@ function updateObjectWithKeyAndValue(obj, key, value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
-  return object[key] = value;
+  return obj[key] = value;
 }
 
 function deleteFromObjectByKey(obj, key){
