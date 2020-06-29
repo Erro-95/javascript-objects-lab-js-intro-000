@@ -3,14 +3,14 @@ function updateObjectWithKeyAndValue(obj, key, value){
 }
 
 
-destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   return obj[key] = value;
 }
 
-deleteFromObjectByKey(obj, key){
+function deleteFromObjectByKey(obj, key){
   return object.assign({}, obj, delete key);
 }
 
-destructivelyDeleteFromObjectByKey(obj, key){
+function destructivelyDeleteFromObjectByKey(obj, key){
   return delete obj[key];
 }
