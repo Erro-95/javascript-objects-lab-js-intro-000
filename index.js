@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 function updateObjectWithKeyAndValue(obj, key, value){
   const newObj = object.assign({}, obj, {key: value});
   return newObj
