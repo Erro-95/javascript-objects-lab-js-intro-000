@@ -8,9 +8,9 @@ destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
 }
 
 deleteFromObjectByKey(obj, key){
-  return object.assign({}, obj, delete key)
+  return object.assign({}, obj, delete key);
 }
 
 destructivelyDeleteFromObjectByKey(obj, key){
-  return delete obj[key]
+  return delete obj[key];
 }
