@@ -1,5 +1,14 @@
+
+
+
+
+
+
+
+
 function updateObjectWithKeyAndValue(obj, key, value){
-  return object.assign({}, obj, {key: value});
+  const newObj = object.assign({}, obj, {key: value});
+  return newObj
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
